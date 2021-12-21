@@ -11,9 +11,26 @@
     "url": "git+https://github.com/Stickman407/Stickman.git"
   },
   "author": "",
+  "description": "Im a little stickman here me shout",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc index.ts --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MadnessLabs/MadnessLand.git"
+  },
+  "author": "Madness Labs",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/Stickman407/Stickman/issues"
   },
   "homepage": "https://github.com/Stickman407/Stickman#readme"
+  "homepage": "https://github.com/Stickman407/Stickman#readme",
+  "dependencies": {
+  },
+  "devDependencies": {
+    "typescript": "^4.5.4"
+  }
 }
